@@ -1,4 +1,4 @@
-resource "google_kms_key_ring" "ey_gp_key" {
+resource "google_kms_key_ring" "ey-gp_key" {
   location = "australia-southeast1"
   name     = "EY-GP-key"
   project  = "gp-ct-sbox-adv-dna"
