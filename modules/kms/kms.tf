@@ -1,6 +1,6 @@
-resource "google_kms_key_ring" "ey-gp-key" {
+resource "google_kms_key_ring" "iag-gdp-storage-encrypt-ring" {
   location = "australia-southeast1"
-  name     = "EY-GP-key"
+  name     = "IAG-GDP-STORAGE-ENCRYPT-RING"
   project  = "gp-ct-sbox-adv-dna"
 }
-# terraform import google_kms_key_ring.iag_gp_key projects/gp-ct-sbox-adv-dna/locations/australia-southeast1/keyRings/EY-GP-key
+
